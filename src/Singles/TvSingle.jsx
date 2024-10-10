@@ -1,6 +1,9 @@
 import React from 'react'
 import { tvData } from '../stores/data/tv'
 import { useParams } from 'react-router-dom'
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../stores/components/Navbar'
 const TvSingle = () => {
     const { id } = useParams()
@@ -10,6 +13,11 @@ const TvSingle = () => {
         <>
             <Navbar />
             <div className='ind-section'>
+                <Link to="/Tv">
+                    <div >
+                        <FontAwesomeIcon icon={faArrowLeft} className='IconSource' />
+                    </div>
+                </Link>
                 <div className="ind-image">
                     <img src={product.image} alt="tv" />
                 </div>

@@ -1,5 +1,8 @@
 import React from 'react'
 import { womanData } from '../stores/data/woman'
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { useParams } from 'react-router-dom'
 import Navbar from '../stores/components/Navbar'
 const WomenSingle = () => {
@@ -10,6 +13,11 @@ const WomenSingle = () => {
         <>
             <Navbar />
             <div className='ind-section'>
+                <Link to="/Women_dressing">
+                    <div >
+                        <FontAwesomeIcon icon={faArrowLeft} className='IconSource' />
+                    </div>
+                </Link>
                 <div className="ind-image">
                     <img src={product.image} alt="" />
                 </div>

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { fridgeData } from '../data/fridge'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
 const FridgePage = () => {
@@ -18,6 +20,11 @@ const FridgePage = () => {
             <Navbar />
             <div className="fullpage">
                 <div className="pro-selected">
+                    <Link to="/">
+                        <div >
+                            <FontAwesomeIcon icon={faArrowLeft} className='IconImage' />
+                        </div>
+                    </Link>
                     {fridgeData.map((phone) => {
                         return (
                             <div className='pro-input'>

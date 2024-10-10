@@ -1,6 +1,9 @@
 import React from 'react'
 import { fridgeData } from '../stores/data/fridge'
 import { useParams } from 'react-router-dom'
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../stores/components/Navbar'
 const FridgeSingle = () => {
     const { id } = useParams()
@@ -10,6 +13,11 @@ const FridgeSingle = () => {
         <>
             <Navbar />
             <div className='ind-section'>
+                <Link to="/Fridge">
+                    <div >
+                        <FontAwesomeIcon icon={faArrowLeft} className='IconSource' />
+                    </div>
+                </Link>
                 <div className="ind-image">
                     <img src={product.image} alt="" />
                 </div>

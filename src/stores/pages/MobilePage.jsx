@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { mobileData } from '../data/mobiles'
-import Navbar from '../components/Navbar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import Navbar from '../components/Navbar';
 import { Link } from 'react-router-dom'
 const MobilePage = () => {
     const [selectedProduct, setselectedProduct] = useState([])
@@ -16,8 +18,14 @@ const MobilePage = () => {
         <>
 
             <Navbar />
+
             <div className="fullpage">
                 <div className="pro-selected">
+                    <Link to="/">
+                        <div >
+                            <FontAwesomeIcon icon={faArrowLeft} className='IconImage' />
+                        </div>
+                    </Link>
                     {mobileData.map((phone) => {
                         return (
                             <div className='pro-input'>

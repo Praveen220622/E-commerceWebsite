@@ -153,6 +153,9 @@ ind-details {
     display: flex;
 }
 
+.fa-arrow-left {
+    font-size: 70px;
+}
 
 
 .pro-selected {
@@ -162,6 +165,22 @@ ind-details {
     position: fixed;
 }
 
+.IconImage {
+    height: 25px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    color: black;
+
+}
+
+.IconSource {
+    height: 25px;
+    margin-right: 25px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    color: black;
+}
 
 .pro-input input {
     margin: 5px;
