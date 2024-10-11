@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
         <div className='top-section'>
             <div className='navsection'>
+
                 <Link to='/'>
                     <div className=" title">
                         <h2>E-Mart</h2>
@@ -15,7 +16,7 @@ const Navbar = () => {
                 </div>
                 <div className='user'>
                     <div className='user-detials'>
-                        SignIn/SignUp
+                        Login
                     </div>
                     <Link to='/cart'>
                         <div className='cart'>
@@ -26,12 +27,12 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="SubMenu">
-                <ul items>
+                <ul items className='items'>
                     <Link to='/mobiles'><li>Mobiles</li></Link>
                     <Link to='/Computers'><li>Computers</li></Link>
                     <Link to='/Watches'><li>Watches</li></Link>
-                    <Link to='/Men-Fashion'><li>Men_Fashion</li></Link>
-                    <Link to='/Women_dressing'><li>Women_dressing</li></Link>
+                    <Link to='/Men-Fashion'><li>Men</li></Link>
+                    <Link to='/Women'><li>Women</li></Link>
                     <Link to='/Books'><li>Books</li></Link>
                     <Link to='/Furniture'><li>Furniture</li></Link>
                     <Link to='/Kicthen'><li>Kitchen</li></Link>

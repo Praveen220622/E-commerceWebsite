@@ -13,7 +13,7 @@ const WomenSingle = () => {
         <>
             <Navbar />
             <div className='ind-section'>
-                <Link to="/Women_dressing">
+                <Link to="/Women">
                     <div >
                         <FontAwesomeIcon icon={faArrowLeft} className='IconSource' />
                     </div>

@@ -42,7 +42,8 @@ const MobilePage = () => {
                 <div className='pageSection'>
                     {filteredProducts.map((item) => {
                         return (
-                            <div>
+                            <div class="container">
+
                                 <Link to={`/mobiles/${item.id}`}>
                                     <div className="pageImg">
                                         <img src={item.image} alt="mobiles" />
@@ -52,6 +53,7 @@ const MobilePage = () => {
                                     {item.company},{item.model}
                                 </div>
                             </div>
+
                         )
                     })}
                 </div>
