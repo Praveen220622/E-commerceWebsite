@@ -23,7 +23,7 @@ const MobileSingle = () => {
                     </div>
                 </Link>
                 <div className="ind-image">
-                    <img src={product.image} alt="" />
+                    <img src={product.image} className="ind" alt="" />
                 </div>
                 <div className="ind-details space">
                     <div className="ind-company">

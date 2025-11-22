@@ -1,329 +1,316 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .title {
-    color: white;
+  color: white;
 }
 
 .navsection {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    background-color: black;
-    color: white;
-    height: 80px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: black;
+  color: white;
+  height: 80px;
 }
 
 .user-detials {
-    color: white;
+  color: white;
 }
+.logout-btn {
+  background-color: lightgreen;
+  width: 125px;
+  height: 35px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 10px;
+  }
 
-@media screen and (max-width:768px) {
-    .title {
-        font-size: 10px;
+  .user-detials {
+    font-size: 15px;
+    margin-left: 70px;
+  }
 
-    }
+  .cart {
+    margin-left: 0px;
+  }
 
-    .user-detials {
-        font-size: 15px;
-        margin-left: 70px;
+  .navsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    }
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .cart {
-        margin-left: 0px;
-    }
+  .items li {
+    color: black;
+    list-style: none;
+  }
 
-    .navsection {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .SubMenu {
+    margin-left: -40px;
+  }
 
-    .items {
-        display: flex;
-        flex-direction: column;
-    }
+  .Prosection {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .items li {
-        color: black;
-        list-style: none;
-    }
+  .proTitle {
+    margin-left: 150px;
+  }
 
-    .SubMenu {
-        margin-left: -40px;
-    }
+  .Proimage {
+    height: 240px;
+    width: 240px;
+  }
 
-    .Prosection {
-        margin-left: 150px;
-        display: flex;
-        flex-direction: column;
-    }
+  .Proimage-men {
+    height: 250px;
+    width: 300px;
+  }
 
-    .proTitle {
-        margin-left: 150px;
-    }
+  .fullpage {
+    margin-left: 100px;
+  }
 
-    .Proimage {
-        height: 240px;
-        width: 240px;
-    }
+  .pageSection {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .Proimage-men {
-        height: 250px;
-        width: 300px;
-    }
+  .ind-section {
+    margin-left: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .fullpage {
-        margin-left: 100px;
-    }
+  .ind-details {
+    font-size: 10px;
+  }
 
-    .pageSection {
-        display: flex;
-        flex-direction: column;
-    }
+  .container {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: auto;
+  }
 
-    .ind-section {
-        margin-left: 100px;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-    }
+  .ind-image {
+    margin-top: -20px;
+  }
 
-    .ind-details {
-        font-size: 10px;
-    }
-
-    .container {
-        display: inline-block;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        overflow-y: auto;
-    }
-
-    .ind-image {
-        margin-top: -20px;
-    }
-
-    .IconImage {
-        padding-top: -20px;
-    }
+  .IconImage {
+    padding-top: -20px;
+  }
 }
 
 .Products {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .top-section {
-    position: fixed;
-    width: 100vw;
+  position: fixed;
+  width: 100vw;
 }
 
 .user {
-    display: flex;
-    flex-direction: row;
-    margin-right: 25px;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+  justify-content: space-between;
 }
 
 .cart {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .search {
-    width: 20vw;
-    height: 100px;
+  width: 20vw;
+  height: 100px;
 }
 
 .Prosection {
-    display: flex;
-    background-color: white;
-
+  display: flex;
+  background-color: white;
 }
 
 .imageBox {
-    width: 80%;
-
+  width: 80%;
 }
 
 .ProImage {
-    width: 50%;
+  width: 50%;
 }
 
 .imageBox-men {
-    width: 100%;
-    margin-left: 40px;
+  width: 100%;
+  margin-left: 40px;
 }
 
 .Proimage-men {
-    width: 100%;
+  width: 100%;
 }
 
 .proTitle h2 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .ind {
-    background-color: red;
+  background-color: red;
 }
 
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .SubMenu ul li {
-    list-style-type: none;
-    margin: 26px;
-    margin-top: 10px;
-
+  list-style-type: none;
+  margin: 26px;
+  margin-top: 10px;
 }
 
 .SubMenu {
-    background-color: grey;
-    color: white;
-    height: 50px;
+  background-color: grey;
+  color: white;
+  height: 50px;
 }
 
 .SubMenu ul {
-    display: inline-flex;
-    margin-left: 30px;
-    justify-content: space-around;
-    list-style: none;
-
+  display: inline-flex;
+  margin-left: 30px;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .pageSection {
-    margin-top: 150px;
-    margin-left: 150px;
-    display: grid;
-    grid-template-columns: repeat(4, 300px);
-    gap: 10px;
+  margin-top: 150px;
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 10px;
 }
-
-
 
 .pageImg {
-    width: 250px;
-    height: 250px;
+  width: 250px;
+  height: 250px;
 }
 
-
 .pageImg img {
-    width: 100%;
+  width: 100%;
 }
 
 .items {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .ind-section {
-    display: flex;
-    padding-top: 150px;
+  display: flex;
+  padding-top: 150px;
 }
 
-
-
 .ind-image {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .ind-image img {
-    height: 100%;
+  height: 100%;
 }
 
 ind-details {
-    padding: 20px;
+  padding: 20px;
 }
 
 .space {
-    margin: 20px;
+  margin: 20px;
 }
 
 .red {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
-
-
 .ind-details button {
-    background-color: orangered;
-    padding: 10px;
-    width: 10rem;
-    border-radius: 5px;
-    columns: white;
-    border: none;
+  background-color: orangered;
+  padding: 10px;
+  width: 10rem;
+  border-radius: 5px;
+  columns: white;
+  border: none;
 }
 
 .fullpage {
-    display: flex;
+  display: flex;
 }
 
 .fa-arrow-left {
-    font-size: 70px;
+  font-size: 70px;
 }
 
-
 .pro-selected {
-    width: 100px;
-    margin-left: 30px;
-    margin-top: 150px;
-    position: fixed;
-
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 150px;
+  position: fixed;
 }
 
 .IconImage {
-    height: 25px;
-    margin-left: 6px;
-    margin-bottom: 6px;
-    margin-top: 0px;
-    color: black;
-
+  height: 25px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: black;
 }
 
 .menu {
-    position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
-    display: felx;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2.25rem;
-    height: 2rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  display: felx;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
 }
 
 .menu span {
-    height: 0.4rem;
-    width: 100vh;
-    background-color: #ffffff;
-    border-radius: 0.2rem;
+  height: 0.4rem;
+  width: 100vh;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
 }
 
 .IconSource {
-    height: 25px;
-    margin-right: 25px;
-    margin-bottom: 16px;
-    margin-top: 0px;
-    color: black;
+  height: 25px;
+  margin-right: 25px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  color: black;
 }
 
 .pro-input input {
-    margin: 5px;
-
+  margin: 5px;
 }
 
 ul li {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .cart {
-    color: white;
+  color: white;
 }
