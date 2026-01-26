@@ -12,7 +12,7 @@ const Header = () => {
           />
         </div>
         <div className="Heading-container">
-          <h1 className="Heading">Lorem Ipsum</h1>
+          <h1 className="Heading">Lorem Ipsum Is Easy</h1>
         </div>
       </div>
     </>
