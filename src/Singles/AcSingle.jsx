@@ -34,7 +34,7 @@ const AcSingle = () => {
                     <div className="ind-desc">
                         <p>{product.description}</p>
                     </div>
-                    <button>Add to Cart</button>
+                    <button>Add Cart</button>
                 </div>
 
             </div>
