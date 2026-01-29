@@ -66,7 +66,7 @@ const Login = () => {
             />
           </div>
           <div className="paragraph-container">
-            <h1>Sign................</h1>
+            <h1>Sign up....</h1>
             <h5>
               If you didn't have an account
               <Link to="/">
